@@ -1,0 +1,5 @@
+/billing/checkout/route.ts (create Stripe checkout session)
+/risks/recompute/route.ts (risk engine endpoint)
+/billing/webhook/route.ts (Stripe webhook handler)
+/org/bootstrap/route.ts (create org + membership + billing row)
+
