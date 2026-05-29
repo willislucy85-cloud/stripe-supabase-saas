@@ -1,6 +1,5 @@
 import { drizzle } from 'drizzle-orm/postgres-js';
 import postgres from 'postgres';
+/db/schema.ts (Drizzle tables)
+db/migrations/0001_org_multitenant.sql (SQL migration, optional if you prefer drizzle-kit)
 
-// Disable prefetch as it is not supported for "Transaction" pool mode
-const client = postgres(process.env.DATABASE_URL!, { prepare: false })
-export const db = drizzle(client);
